@@ -82,6 +82,3 @@ def display(image, width=28, threshold=200):
             render = render + '.'
 
     return render
-
-
-load_data("./MNIST/trainimages.gz", "./MNIST/trainlabels.gz", "./MNIST/10ktest.gz", "./MNIST/10klabels.gz")
